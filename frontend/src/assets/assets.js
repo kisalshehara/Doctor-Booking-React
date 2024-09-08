@@ -30,6 +30,7 @@ import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
 import doc15 from './doc15.png'
+import blank from './blank.png'
 import Dermatologist from './Dermatologist.svg'
 import Gastroenterologist from './Gastroenterologist.svg'
 import General_physician from './General_physician.svg'
@@ -68,7 +69,7 @@ export const specialityData = [
         image: Gynecologist
     },
     {
-        speciality: 'Dermatologist',
+        speciality: 'Orthopedic',
         image: Dermatologist
     },
     {
@@ -80,7 +81,7 @@ export const specialityData = [
         image: Neurologist
     },
     {
-        speciality: 'Gastroenterologist',
+        speciality: 'Beauty',
         image: Gastroenterologist
     },
 ]
@@ -88,16 +89,16 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Daya Madoluwa',
         image: doc1,
-        speciality: 'General physician',
-        degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        speciality: 'Orthopedic',
+        degree: 'Paramparika',
+        experience: '26 Years',
+        about: 'Dr. Daya Madoluwa, a distinguished Ayurvedic specialist in Orthopedics, is a registered medical practitioner with the registration number 9385. Born on September 20, 1956, Dr. Madoluwa has dedicated his career to the field of Ayurveda, with a particular focus on Paramparika techniques.',
+        fees: 2500,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'No. 228/1, Asiri Mawatha',
+            line2: 'Kandy Road, Yakkala'
         }
     },
     {
